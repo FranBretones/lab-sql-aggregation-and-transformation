@@ -6,7 +6,7 @@ USE sakila;
 ##- 1.1 Determine the **shortest and longest movie durations** and name the values as `max_duration` and `min_duration`.*/
 SELECT 
 	MAX(length) as max_duration,
-    MIN(length) as min_duration
+    	MIN(length) as min_duration
 FROM 
 	film;
 
